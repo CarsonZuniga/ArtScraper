@@ -77,6 +77,7 @@ connection.query(`SELECT * FROM ${TABLE_NAME} ORDER BY RAND() LIMIT 1;`, functio
     if (err)
         throw err;
     console.log(res);
+    
 });
 
 connection.end();
